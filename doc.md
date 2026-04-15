@@ -2,12 +2,12 @@ UniTrack – GPS-Based University Campus Bus Tracking System
 Product Specification Document
 
 1. Overview
-UniTrack is a mobile application that uses real-time GPS technology to track university campus buses. The app allows students to view live bus locations on a map, get arrival notifications, and check route details. Drivers broadcast their GPS location automatically while on duty. Admins manage buses, routes, stops, and drivers through a dedicated dashboard.
+In Phase 1, the system uses smartphone-based GPS tracking. Instead of dedicated GPS hardware installed in buses, the driver’s mobile device acts as the tracking unit. When the driver starts the route, the application collects location data in the background using device GPS and synchronizes it with Firebase in real-time. Students can view the live bus location on the map through the application.
 
 Target Platforms: Android and iOS
 
 2. Key Features
-- Real-time GPS bus tracking on Google Maps
+- GPS bus tracking on Google Maps
 - Live ETA (Estimated Time of Arrival) for each bus stop
 - Push notifications when bus is near a stop
 - Role-based access for Students, Drivers, and Admins
